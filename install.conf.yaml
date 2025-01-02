@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+#    ~/.vim: vim
+   ~/.zshrc: zshrc 
+
+- create:
+    - ~/work
+    - ~/hey/you/guys
+
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]
+
